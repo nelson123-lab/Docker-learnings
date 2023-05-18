@@ -23,3 +23,6 @@ Containers
 
 ## Docker Commands
 docker ps -- list all the running containers in your system.
+docker build -t tagname/demoapp:1.0 -- to make a docker image.
+docker run id -- running a container
+docker run -p 5000:8080  -- port forwarding.
