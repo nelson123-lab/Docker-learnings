@@ -11,3 +11,15 @@ The advantage of using docker is that it is light weight and provides similar fu
 
 
 Docker is tool which is used to automate the deployment of applications in light weight containers so that many applications can work efficiently in different environments.
+
+## Docker Essential Components:-
+
+Docker File 
+- like a blueprint for building docker images.
+Docker Image
+- Template for running docker containers.
+Containers
+- Run in progress.
+
+## Docker Commands
+docker ps -- list all the running containers in your system.
