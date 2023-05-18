@@ -20,9 +20,13 @@ Docker Image
 - Template for running docker containers.
 Containers
 - Run in progress.
+Volume
+- Dedicated folder on the host machine.
+
 
 ## Docker Commands
 docker ps -- list all the running containers in your system.
 docker build -t tagname/demoapp:1.0 -- to make a docker image.
 docker run id -- running a container
 docker run -p 5000:8080  -- port forwarding.
+docker volume create name -- to create a volume
