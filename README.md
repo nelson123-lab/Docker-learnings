@@ -34,9 +34,20 @@ docker run -p 5000:8080  -- port forwarding.
 docker volume create name -- to create a volume
 
 # Importance of docker for data scientists
-Improved and seamless container portability: Docker containers run without modification across any desktop, data center, or cloud environment.
-Even lighter weight and more granular updates: Multiple processes can be combined within a single container. This makes it possible to build an application that can continue running while one of its parts is taken down for an update or repair.
-Automated container creation: Docker can automatically build a container based on application source code.
-Container versioning: Docker can track versions of a container image, roll back to previous versions, and trace who built a version and how. It can even upload only the deltas between an existing version and a new one.
-Container reuse: Existing containers can be used as base images — essentially like templates for building new containers.
-Shared container libraries: Developers can access an open-source registry containing thousands of user-contributed containers.
+- Improved and seamless container portability:
+  - Docker containers run without modification across any desktop, data center, or cloud environment.
+- Even lighter weight and more granular updates:
+  - Multiple processes can be combined within a single container. This makes it possible to build an application that 
+    can continue running while one of its parts is taken down for an update or repair.
+- Automated container creation:
+  - Docker can automatically build a container based on application source code.
+- Container versioning:
+  - Docker can track versions of a container image, roll back to previous versions, and trace who built a version and how. It can even upload only the deltas           between an existing version and a new one.
+- Container reuse:
+  - Existing containers can be used as base images — essentially like templates for building new containers.
+- Shared container libraries:
+  - Developers can access an open-source registry containing thousands of user-contributed containers.
+
+## Reference
+
+[Docker for Data Science Projects: A Beginner-Friendly Introduction](https://levelup.gitconnected.com/docker-for-data-science-projects-a-beginner-friendly-introduction-58e523ebbacb)
