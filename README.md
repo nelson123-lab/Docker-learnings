@@ -9,6 +9,7 @@ The advantage of using docker is that it is light weight and provides similar fu
 ## Let's look at a comparison with Virtual Machine and docker
 <div align="center"><img src="https://github.com/nelson123-lab/Dockor-learnings/blob/2827146ed6e21e072232a7ae2aacf34c7817e84b/VM_vs_Docker.png" width="900"/></div>
 
+The above comparison just provides some basic information this is not this works in real world. The comparison shows virtual machine as something useless. Most of the time docker containers are run on top of the virtual machines.
 
 Docker is tool which is used to automate the deployment of applications in light weight containers so that many applications can work efficiently in different environments.
 
