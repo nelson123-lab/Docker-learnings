@@ -49,6 +49,31 @@ docker volume create name -- to create a volume
 - Shared container libraries:
   - Developers can access an open-source registry containing thousands of user-contributed containers.
 
-## Reference
+### Containers 
+- docker images are required to run containers
+- docker files are required to generate a docker image.
 
-[Docker for Data Science Projects: A Beginner-Friendly Introduction](https://levelup.gitconnected.com/docker-for-data-science-projects-a-beginner-friendly-introduction-58e523ebbacb)
+### Dokerfile
+- Docker file contains instructions to automatically create docker images to run containers.
+
+### Docker Application general file Structure
+- `docker init` will generate the files required to create a docker image.
+- `docker compose up --build` will run your application.
+
+├── python-docker/
+│ ├── app.py
+│ ├── requirements.txt
+│ ├── .dockerignore
+│ ├── compose.yaml
+│ ├── Dockerfile
+│ ├── README.Docker.md
+│ └── README.md
+
+- compose.yaml file to define a database service and a volume to persist data.
+- Compose Watch to automatically update your running Compose services as you edit and save your code.
+
+
+
+## Reference
+- [Docker python Documentation](https://docs.docker.com/language/python)
+- [Docker for Data Science Projects: A Beginner-Friendly Introduction](https://levelup.gitconnected.com/docker-for-data-science-projects-a-beginner-friendly-introduction-58e523ebbacb)
